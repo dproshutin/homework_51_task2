@@ -72,6 +72,15 @@
     width: 100%;
     height: auto;
 }
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.team_member {
+    width: 30%;
+    padding: 30px;
+}
 .footer {
     padding: 36px 0 28px;
     background: #54865d;

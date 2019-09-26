@@ -5,7 +5,7 @@ const Header = (props) => {
         <div className="header">
             <div className="container clearfix">
                 <a href="#" className="logo">
-                    <img src="img/logo.png" alt="Frebdm"/>
+                    <img src="uploads/img/logo.png" alt="Frebdm"/>
                 </a>
             <nav className="header_menu">
                 <ul className="clearfix">
