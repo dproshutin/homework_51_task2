@@ -105,6 +105,9 @@
     float: left;
     margin-right: 30px;
 }
+.footer_mail_address {
+    float: right;
+}
 .footer_mail_address:hover {
     opacity: 0.7;
 }
