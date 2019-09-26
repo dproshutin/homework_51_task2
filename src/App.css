@@ -87,6 +87,22 @@
     width: 30%;
     margin: 30px 0;
 }
+.team_member_name_title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #91c5a9;
+}
+.team_member_name_title::after {
+    position: relative;
+    top: 11px;
+    left: 0;
+    display: block;
+    content: '';
+    margin-bottom: 10px;
+    border-top: 3px solid #91c5a9;
+    box-shadow: 1px 1px 0px #c4e0d1;
+}
 .footer {
     padding: 36px 0 28px;
     background: #54865d;

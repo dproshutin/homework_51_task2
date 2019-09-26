@@ -29,7 +29,7 @@ const Header = (props) => {
             <a href="#" className="login"></a>
             </div>
         </div>
-);
+    );
 };
 
 export default Header;
