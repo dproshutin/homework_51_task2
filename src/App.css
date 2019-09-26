@@ -20,3 +20,83 @@
 .App-link {
   color: #09d3ac;
 }
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 10px;
+  background: #775ba3;
+}
+.logo {
+  float: left;
+  margin-right: 95px;
+}
+.header_menu {
+  float: left;
+  width: 38%;
+  padding-top: 27px;
+  padding-bottom: 31px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #876885;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.header_menu_item {
+  float: left;
+  transition: 0.2s;
+}
+.header_menu_item a {
+  padding: 10px 8px;
+}
+.header_menu_item a:hover {
+  border-bottom: 2px solid #f8e1b4;
+}
+.login {
+  float: right;
+  margin-top: 18px;
+  margin-right: 3px;
+  width: 24px;
+  height: 23px;
+  background: url(img/head.png) 0 0 no-repeat;
+}
+.promo img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+.footer {
+    padding: 36px 0 28px;
+    background: #54865d;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0px 1px 7px	#466f4d inset;
+}
+.container_footer {
+    max-width: 1173px;
+    margin: 0 auto;
+}
+.footer_text {
+    float: left;
+    margin-right: 30px;
+}
+.footer_mail_address:hover {
+    opacity: 0.7;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
